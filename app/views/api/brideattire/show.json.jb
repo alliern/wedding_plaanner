@@ -1,0 +1,1 @@
+render partial: "brideattire.json.jb", locals: {bride_attire: @bride_attire}

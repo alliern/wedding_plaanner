@@ -1,0 +1,12 @@
+{ 
+  id: bride_attire.id,
+  dress: bride_attire.dress,
+  dress: bride_attire.shoes,
+  dress: bride_attire.bracelet,
+  dress: bride_attire.earrings,
+  dress: bride_attire.veil,
+  dress: bride_attire.hairpiece,
+  dress: bride_attire.necklace,
+  dress: bride_attire.alterations
+
+}

@@ -1,0 +1,3 @@
+@bride_attire.map do |bride|
+  render partial: "brideattire.json.jb", locals: {bride: bride_attire}
+end
