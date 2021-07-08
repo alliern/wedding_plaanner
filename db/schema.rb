@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2021_07_08_173210) do
+ActiveRecord::Schema.define(version: 2021_07_08_173806) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -26,6 +26,7 @@ ActiveRecord::Schema.define(version: 2021_07_08_173210) do
     t.float "alterations"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
+    t.float "total"
   end
 
   create_table "day_ofs", force: :cascade do |t|
@@ -36,6 +37,7 @@ ActiveRecord::Schema.define(version: 2021_07_08_173210) do
     t.float "music"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
+    t.float "total"
   end
 
   create_table "decors", force: :cascade do |t|
@@ -47,6 +49,7 @@ ActiveRecord::Schema.define(version: 2021_07_08_173210) do
     t.float "linens"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
+    t.float "total"
   end
 
   create_table "foods", force: :cascade do |t|
@@ -55,6 +58,7 @@ ActiveRecord::Schema.define(version: 2021_07_08_173210) do
     t.float "dinner"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
+    t.float "total"
   end
 
   create_table "groom_attires", force: :cascade do |t|
@@ -64,6 +68,7 @@ ActiveRecord::Schema.define(version: 2021_07_08_173210) do
     t.float "accessories"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
+    t.float "total"
   end
 
   create_table "totals", force: :cascade do |t|
@@ -84,6 +89,7 @@ ActiveRecord::Schema.define(version: 2021_07_08_173210) do
     t.float "misc"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
+    t.float "total"
   end
 
 end
