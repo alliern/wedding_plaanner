@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2021_07_08_172442) do
+ActiveRecord::Schema.define(version: 2021_07_08_173210) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -62,6 +62,18 @@ ActiveRecord::Schema.define(version: 2021_07_08_172442) do
     t.float "shoes"
     t.float "alterations"
     t.float "accessories"
+    t.datetime "created_at", precision: 6, null: false
+    t.datetime "updated_at", precision: 6, null: false
+  end
+
+  create_table "totals", force: :cascade do |t|
+    t.float "bride_attire"
+    t.float "groom_attire"
+    t.float "food"
+    t.float "venue"
+    t.float "day_of"
+    t.float "decor"
+    t.float "grand_total"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
   end

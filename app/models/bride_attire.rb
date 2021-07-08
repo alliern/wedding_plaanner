@@ -1,2 +1,3 @@
 class BrideAttire < ApplicationRecord
+  
 end
