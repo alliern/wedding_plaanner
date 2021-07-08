@@ -1,0 +1,2 @@
+class GroomAttire < ApplicationRecord
+end
